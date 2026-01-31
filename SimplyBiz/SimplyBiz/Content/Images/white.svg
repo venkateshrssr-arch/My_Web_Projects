@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_1" data-name="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 344 140.28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#_未命名漸層_3-2);
+      }
+
+      .cls-3 {
+        fill: url(#_未命名漸層_2);
+      }
+
+      .cls-4 {
+        fill: url(#_未命名漸層_3);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="344" height="140"/>
+    </clipPath>
+    <linearGradient id="_未命名漸層_2" data-name="未命名漸層 2" x1="-164.76" y1="500.86" x2="-164.76" y2="500.11" gradientTransform="translate(56847.82 70119.93) scale(344 -140)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#efefef"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="_未命名漸層_3" data-name="未命名漸層 3" x1="-164.37" y1="502.55" x2="-164.25" y2="502.34" gradientTransform="translate(-95677.58 291219.64) rotate(27.97) scale(315.51 -601.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#e6e6e5"/>
+    </linearGradient>
+    <linearGradient id="_未命名漸層_3-2" data-name="未命名漸層 3" x1="-167.03" y1="503.08" x2="-166.47" y2="503.07" gradientTransform="translate(145374.47 -267250.87) rotate(-143.99) scale(237.47 -599.6)" xlink:href="#_未命名漸層_3"/>
+  </defs>
+  <g class="cls-5">
+    <path id="Path_2239" class="cls-3" d="M0,0h344v140H0V0Z"/>
+    <g id="Mask_Group_51">
+      <path id="Path_2247" class="cls-4" d="M435.2-79.34L493.77.73,68.82,394.18l-115.43-48.69L435.2-79.34Z"/>
+      <path id="Path_2251" class="cls-2" d="M-116.72,260.51l-115.52-72.37L196.86-229.63l115.52,72.37L-116.72,260.51Z"/>
+    </g>
+  </g>
+</svg>

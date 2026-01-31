@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown Menu</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+}
+
+.menu-btn {
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 8px;
+  left: 49px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dropdown ul li {
+  padding: 8px 0;
+}
+
+.close-btn {
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.clientbt{
+  margin: 10px 0 0 5px;
+  background-color: #90C911;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: "Arial";
+    color: #ffff;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- <header class="clearfix wrapper white-bg head">
+    <article class="clearfix inner-wrapper">
+      <a href="index.html" class="f-l">
+        <img src="Content/Images/logo5.png" alt="Logo" class="logowid">
+    </a>
+    <button class="clearfix clientbt"><a href="#">Client Login</a></button>
+    <article class="f-r t-m20">
+      <input type="text" class="form-control" placeholder="Search">
+    </article>
+    </article>
+
+  </header> -->
+
+  <!-- Menu Button -->
+  <button class="menu-btn" onclick="toggleDropdown()">☰</button>
+
+  <!-- Dropdown Menu -->
+  <div class="dropdown" id="dropdown">
+    <!-- <button class="close-btn" onclick="toggleDropdown()">×</button> -->
+    <ul>
+      <li><button class="close-btn" onclick="toggleDropdown()">he</button></li>
+      <li>Menu Item 1</li>
+      <li>Menu Item 2</li>
+      <li>Menu Item 3</li>
+    </ul>
+  </div>
+
+  <script>
+    function toggleDropdown() {
+  const dropdown = document.getElementById('dropdown');
+  
+  // Toggle the visibility of the dropdown
+  dropdown.style.display = (dropdown.style.display === 'block') ? 'none' : 'block';
+}
+
+
+
+var right=document.getElementById("right").offsetHeight;
+    //    document.write(right)
+    //    console.log("hello")
+        console.log("hei",right);
+    //    var wid = document.getElementById("right").offsetWidth;
+    //    console.log("with",wid);
+    document.getElementById("left").style.height=right+"px";
+
+//     var dropval = document.getElementById("dropdown");
+// dropval.style.visibility = "hidden";
+// dropval.style.height = "150px";
+//  dropval.style.transitionProperty = "width";
+// dropval.style.transitionDuration = "2s";
+// dropval.style.transitionTimingFunction = 'linear';
+
+
+// function toggleDropdown(value) {
+//     // console.log(value);
+    
+//   const dropval = document.getElementById('dropdown');
+  
+//   // Toggle the visibility of the dropdown
+// //   dropval.style.display = (dropval.style.display === 'block') ? 'none' : 'block';
+//   if (value ==="dropdown"){
+//     const dropval = document.getElementById('dropdown');
+    
+//     if(dropval.style.visibility === "visible"){
+//     //      dropval.style.height = "0px";
+//     //     dropval.style.transitionDuration = "1s";
+//     //     dropval.style.transitionProperty = "height";
+//        dropval.style.visibility = "hidden";
+
+//     }else{
+//         dropval.style.visibility = "visible";
+//         dropval.style.width = "200px";
+//     dropval.style.height = "130px";
+//     dropval.style.transitionDuration = '2s';
+//     dropval.style.transitionProperty = 'width';
+//     dropval.style.transitionTimingFunction = 'linear';
+//     }   
+// }
+// }
+  </script>
+</body>
+</html>

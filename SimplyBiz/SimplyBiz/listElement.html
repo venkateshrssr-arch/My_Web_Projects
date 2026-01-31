@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover to Show List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Styling for the main list */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .onelist li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            cursor: pointer;
+            float: left;
+            margin-right: 20px;
+        }
+
+        /* Styling for the nested list (initially hidden) */
+        .sub-list {
+            display: none;
+            margin-left: 20px; /* Indentation for sublist */
+            padding-left: 0;
+        }
+
+        .sub-list li{clear: both;position: relative;}
+        .sublistone li{padding: 12px 14px;
+            width: 80px;}
+        .sublistone{position: absolute;left: 80px;display: none;top: -11px;}
+
+        /* Show the nested list when hovering over the parent list item */
+        .sub-list li:hover .sublistone{display: block;}
+     .sublistone:hover {display: block;} 
+        .onelist li:hover .sub-list {
+            display: block;
+        }
+        .whitebg{width: 310px !important;
+        height: 126px !important;
+        display: block;
+        background-image: url(Content/Images/white.svg);
+        background-size: 100%;
+        position: absolute;
+        border-radius: 8px;
+        border: #0071be00 1px solid;
+        box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0);
+    }
+    ul .sublistone {background-color: #132c3d;min-height: 100%;padding: 15px 0;}
+    .onelist li .sub-list li ul{width: 570px;
+        background-image: url(Content/Images/bggg.svg);
+        background-position: right bottom;
+        background-repeat: no-repeat;}
+    </style>
+</head>
+<body>
+    <ul class="onelist">
+        <li>Company
+            <ul class="sub-list">
+                <li>Product A
+                    <ul class="sublistone">
+                        <li>Product A1</li>
+                        <li class="whitebg">
+                            <span><span>IAP4701A</span>TRI-BAND WI-FI 7 INDOOR</span>
+                            <img src="Content/Images/ss.png" alt="logo">
+                        </li>
+                    </ul>
+                </li>
+                <li>Product B</li>
+                <li>Product C</li>
+            </ul>
+        </li>
+        <li>About Us</li>
+        <li>Contact</li>
+    </ul>
+</body>
+</html>

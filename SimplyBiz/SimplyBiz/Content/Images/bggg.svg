@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="624.953" height="445.097" viewBox="0 0 624.953 445.097">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2041" data-name="Rectangle 2041" width="624.953" height="445.097" transform="translate(0 0)" fill="#132c3d"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.41" y1="0.463" x2="0.59" y2="0.515" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#015a98"/>
+      <stop offset="0" stop-color="#0461a0"/>
+      <stop offset="1" stop-color="#122d3d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.065" y1="0.468" x2="0.399" y2="0.492" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0071be"/>
+      <stop offset="1" stop-color="#132c3d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.156" y1="0.432" x2="0.538" y2="0.488" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#007cbe"/>
+      <stop offset="1" stop-color="#132c3d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="-0.208" y1="0.428" x2="0.498" y2="0.473" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#015a98"/>
+      <stop offset="1" stop-color="#132c3d"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_844" data-name="Group 844" transform="translate(-576.137 -269.903)">
+    <g id="Mask_Group_55" data-name="Mask Group 55" transform="translate(576.137 269.903)" clip-path="url(#clip-path)">
+      <g id="Group_837" data-name="Group 837" transform="matrix(0.996, 0.087, -0.087, 0.996, 14.775, -201.76)">
+        <path id="Path_2260" data-name="Path 2260" d="M146.608,15.664,229.754,2.958,93.457,795.67,10.312,808.375Z" transform="translate(396.926 8.799) rotate(30)" fill="url(#linear-gradient)"/>
+        <path id="Path_2261" data-name="Path 2261" d="M146.966,43.722,399.427,5.143,263.13,797.854,10.669,836.433Z" transform="translate(450.079 1.08) rotate(30)" fill="url(#linear-gradient-2)"/>
+        <path id="Path_2262" data-name="Path 2262" d="M146.966,43.722,399.427,5.143,263.13,797.854,10.669,836.433Z" transform="translate(529.798 42.949) rotate(30)" opacity="0.999" fill="url(#linear-gradient-3)"/>
+        <path id="Path_2263" data-name="Path 2263" d="M146.86,35.389,349.037,4.494,212.74,797.206,10.563,828.1Z" transform="translate(708.131 125.081) rotate(30)" fill="url(#linear-gradient-4)"/>
+      </g>
+    </g>
+  </g>
+</svg>
