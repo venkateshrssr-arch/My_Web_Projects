@@ -1,0 +1,787 @@
+*{margin: 0;padding: 0;}
+.wrapper {
+    clear:both; 
+}
+.wrapper::after, .wrapper::before {
+    content:""; 
+}.inner-wrapper{max-width: 1100px;margin-left: auto;margin-right: auto;}
+.clearfix:before,
+.clearfix:after{
+    clear: both;
+    display: table;
+    content: '';
+    border-collapse: collapse;
+}
+.block-row{clear:both;} 
+.block-row:before,.block-row:after{
+    content:"";
+    display:table;
+    line-height:0;
+}
+.left-block1{width: 70%; float: left;}
+.right-block1{width: 30%; float: left;}
+.left-blockOncology{width: 61%; float: left;}
+.right-blockOncology{width: 39%; float: right;}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../Content/Fonts/Poppins-Bold.eot') format('embedded-opentype');
+    src: url('../Content/Fonts/Poppins-Bold.ttf') format('truetype'), url('../Content/Fonts/Poppins-Bold.woff') format('woff'),url('../Content/Fonts/Poppins-Bold.otf') form('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+.Poppins-Bold{font-family: "Poppins-Bold";}
+
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../Content/Fonts/Poppins-Regular.eot') format('embedded-opentype');
+    src: url('../Content/Fonts/Poppins-Regular.ttf') format('truetype'), url('../Content/Fonts/Poppins-Regular.woff') format('woff'),url('../Content/Fonts/Poppins-Regular.otf') form('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+.Poppins-Regular{font-family: "Poppins-Regular";}
+
+.s1-p-d{padding: 50px;}
+.hed-back-bg{background: url(images/ban2.jpg) no-repeat center center;}
+.f-l{float: left;}
+.phoneicon{background: url(images/viber.png) no-repeat left center; display: inline-block;width: 32px;height: 32px; vertical-align: middle; margin-right: 5px;} 
+.phonenumber{background-color:#ffc107; font-size:  18px; color:#fff;float: right; padding: 10px 16px; margin-top: 15px; border-radius: 10px; font-family:"Poppins-Bold" ;}
+.bookh1{font-family:"Poppins-Bold"; line-height: 46px; font-size: 40px; padding: 20px 0 30px 0; letter-spacing: 2px; font-weight: bold;}
+.opdsh3{font-family:"Poppins-Bold"; font-size: 20px;}
+.dis-b{display: block;}
+.book-bg{background-color:#0d82a1; border-radius: 10px; padding: 30px;}
+.bookh3{font-size: 18px; font-family:"Poppins-Bold"; color: #fff; text-align: center; text-transform: uppercase;margin-bottom: 20px;}
+.form-control{min-height: 36px;background-color: white;border-radius: 5px;font-size: 16px;box-shadow: none;
+    border: none;min-width: 100%;margin-bottom: 10px;}
+.form-control::placeholder{padding-left: 10px;}
+.mobileposi{position: relative;}
+.buttonposi{border: none; height: 36px;background-color: #073b43; color: #fff; padding: 10px 10px; font-size: 15px;border-radius:0 5px 5px 0;position: absolute; right:0; top:0;}
+.t-p50{padding-top: 50px;}
+.b-p150{padding-bottom: 150px;}
+.b-p80{padding-bottom: 80px;}
+.getbutton{background-color:#f47920; color: #fff; border-color: #f47920; width: 100%;padding: 10px 10px;font-size: 16px; font-family:"Poppins-Bold"; border-radius: 5px; opacity:0.65;}
+.centersh1{font-family:"Poppins-Bold"; font-size: 35px;font-weight: 40px;line-height: 50px;text-align: center;margin-top: 10px; color: #000; letter-spacing: 5px;}
+.centersul{list-style-type: none;padding-top: 30px;}
+.centersul li a{text-decoration: none;}
+.centersul li{width: 11%; float: left;text-align:center;margin-right: 4.5%;margin-left: 4.5%;position: relative;}
+.centersul li .centli{border: 1px solid #007c9d;border-radius: 100%;width: 100%;height: 110px;background-color: transparent;}
+.inner-wrapper{width: 1100px;margin-left: auto;margin-right: auto;}
+.liimg1{background: url(images/download.png) no-repeat center center;
+    display: inline-block;
+    width: 61px;
+    height: 78px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    }
+.centersul li .centli:hover{background-color: #007c9d;}
+.centli:hover .liimg1{ background:url(images/hiconh.png)  no-repeat center center;}
+.liimg2{background: url(images/oncology_icon.svg) no-repeat center center;
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    }
+
+    .centersul li .centli:hover{background-color: #007c9d;}
+.centli:hover .liimg2{ background:url(images/oiconh.svg)  no-repeat center center;}
+
+.liimg3{background: url(images/download\ \(1\).png) no-repeat center center;
+    display: inline-block;
+    width: 38px;
+    height: 78px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    }
+.centersul li .centli:hover{background-color: #007c9d;}
+.centli:hover .liimg3{ background:url(images/riconh.png)  no-repeat center center;}
+.liimg4{background: url(images/download\ \(2\).png) no-repeat center center;
+    display: inline-block;
+    width: 50px;
+    height: 62px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    }
+
+.centersul li .centli:hover{background-color: #007c9d;}
+.centli:hover .liimg4{ background:url(images/niconh.png)  no-repeat center center;}
+
+.liimg4:hover{ background:url(images/niconh.png)  no-repeat center center; background-color: #007c9d;}
+.liimg5{background: url(images/gicon.png) no-repeat center center;
+    display: inline-block;
+    width: 72px;
+    height: 71px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    }
+.centersul li .centli:hover{background-color: #007c9d;}
+.centli:hover .liimg5{ background:url(images/giconh.png)  no-repeat center center;}
+
+.centersul h5{color: #222; font-family:"Poppins-Bold"; font-size: 15px;position: absolute;
+    left: 50%;
+    transform: translateX(-50%);margin-top: 10px;
+}
+.cardilogy-bg{background: url(images/cardiology-bg.webp) no-repeat right center;
+    background-size: auto;}
+.cardilogyh2{font-family: "Poppins-Bold"; font-size: 35px;line-height: 40px; color: #000;padding-top: 80px;padding-bottom: 30px;}
+.cardilogy-para{font-family: "Poppins-Regular";font-size:14px;line-height: 25px;padding-right: 61%;padding-bottom: 20px;}
+.b-p100{padding-bottom: 100px !important;}
+.Oncology-bg{background: url(images/bariatric-bg.webp) no-repeat left center;
+    background-size: auto;}
+.Oncologyh2{font-family: "Poppins-Bold"; font-size: 35px;line-height: 40px; color: #000;padding-top: 80px;padding-bottom: 30px;}
+.Oncology-para{font-family: "Poppins-Regular";
+    font-size: 14px;
+    line-height: 27px;
+    padding-bottom: 35px;}
+
+.Orthopedics-bg{background: url(images/ortho-bg.webp) no-repeat left center;
+        background-size: auto;}
+.Orthopedicsh2{font-family: "Poppins-Bold"; font-size: 35px;line-height: 40px; color: #000;padding-top: 80px;padding-bottom: 30px;}
+.Orthopedics-para{font-family: "Poppins-Regular";
+        font-size: 14px;
+        line-height: 27px;
+        padding-bottom: 35px;}    
+
+.RoboticSurgery-bg{background: url(images/sec_2.webp) no-repeat;
+            background-size: auto;}
+.RoboticSurgeryh2{font-family: "Poppins-Bold"; font-size: 40px;line-height: 40px; color:#aaa ;padding-top: 80px;padding-bottom: 30px;padding-right: 61%;}
+.RoboticSurgery-para{font-family: "Poppins-Regular";
+            font-size: 16px;
+            line-height: 25px;
+            padding-right: 61%;
+            padding-bottom: 100px;
+            color: #aaa ;}   
+
+.Nephrology-bg{background: url(images/sec_1.webp) no-repeat 12% top;
+            background-size: auto; background-position: 25%;}
+.Nephrologyh2{font-family: "Poppins-Bold"; font-size: 40px;line-height: 40px; color:#000;padding-top: 80px;padding-bottom: 30px;}
+.Nephrology-para{font-family: "Poppins-Regular";
+                font-size: 14px;
+                line-height: 26px;
+                padding-bottom: 100px;
+                color:rgba(0, 0, 0, .7);}
+                
+.Neurology-bg{background: url(images/sec_7.webp) no-repeat;
+                    background-size: auto;}
+.Neurologyh2{font-family: "Poppins-Regular"; font-size: 40px;line-height: 40px; color:#000;padding-top: 80px;padding-bottom: 30px;padding-right: 61%;}
+.Neurology-para{font-family: "Poppins-Regular";
+                        font-size: 15px;
+                        line-height: 24px;
+                        padding-right: 61%;
+                        padding-bottom: 150px;
+                        color:#000} 
+               
+.Urology-bg{background: url(images/sec_6.webp) no-repeat top center;
+                            background-size: auto;}
+.Urologyh2{font-family: "Poppins-Regular"; font-size: 40px;line-height: 40px; color:#000;padding-top: 80px;padding-bottom: 30px;}
+.Urology-para{font-family: "Poppins-Regular";
+                          font-size: 15px;
+                          line-height: 24px;
+                          padding-bottom: 120px;
+                          color:#000}  
+
+.Gastroenterology-bg{background: url(images/sec_9.webp) no-repeat 85% 60%;
+                            background-size: auto;}
+.Gastroenterologyh2{font-family: "Poppins-Regular"; font-size: 40px;line-height: 40px; color:#000;padding-top: 80px;padding-bottom: 30px;padding-right: 61%;}
+.Gastroenterology-para{font-family: "Poppins-Regular";
+                          font-size: 16px;
+                          line-height: 25px;
+                          padding-right: 61%;
+                          padding-bottom: 120px;
+                          color:#000}  
+
+
+.BariatricSurgery-bg{background: url(images/sec_8.webp) no-repeat center center;
+                            background-size: auto;}
+.BariatricSurgeryh2{font-family: "Poppins-Regular"; font-size: 38px;line-height: 40px; color:#000;padding-top: 80px;padding-bottom: 30px;}
+.BariatricSurgery-para{font-family: "Poppins-Regular";
+                        font-size: 15px;
+                        line-height: 25px;
+                        padding-bottom: 120px;
+                         color:#000}  
+
+.Pulmonary-bg{background: url(images/sec_10.webp) no-repeat center;
+                            background-size: auto;}
+.Pulmonaryh2{font-family: "Poppins-Regular"; font-size: 38px;line-height: 40px; color:#000;padding-top: 80px;padding-bottom: 30px;padding-right: 61%;}
+.Pulmonary-para{font-family: "Poppins-Regular";
+                        font-size: 15px;
+                        line-height: 25px;
+                        padding-right: 61%;
+                        padding-bottom: 100px;
+                         color:#000} 
+.org-bg{background-color: transparent;width: 100%;padding: 20px 0;}
+
+.boookbutt{padding: 9.5px 0; color: white; font-family:"Poppins-Regular" ; font-size: 14px;background-color: #f47920;position: fixed;bottom: 0;width: 100%;text-align: center;}                     
+
+.clor{
+    background-color: #1e88a6;
+    opacity: 0.92;
+    /* position: relative; */
+    /* z-index: 0; */
+}
+.spandata {
+    background: url(images/backgroundimg.webp) no-repeat center;
+    background-size: auto;
+    background-color: #1e88a6;
+    /* margin-bottom: 41px; */
+    /* position: relative; */
+}
+
+.spanh4 {
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+    font-family: "Poppins-Regular";
+    font-size: 11px;
+    /* position: relative; */
+    /* z-index: 0; */
+}
+
+@media (max-width:1100px) {
+    .inner-wrapper{max-width: 1000px;margin-left: auto;margin-right: auto;}
+    .bookh1{line-height: 38px;font-size: 30px;}
+    .Neurology-para {padding-bottom: 118px;padding-right: 25%;}
+    .b-p100 {
+        padding-bottom: 94px !important;
+    }
+    .Gastroenterology-bg {
+        background: url(images/sec_9.webp) no-repeat 75% 60%;
+        background-size: auto;
+    }
+    .Gastroenterology-para {
+        padding-right: 57%;}
+    
+    
+}
+
+@media (max-width:1024px) {
+    .inner-wrapper{max-width: 920px;margin-left: auto;margin-right: auto;}
+    .cardilogy-bg {
+        background: url(images/cardiology-bg.webp) no-repeat 85% 43%;
+        background-size: auto;
+    }
+    .Oncology-bg {
+        background: url(images/bariatric-bg.webp) no-repeat left center;
+        background-size: cover;
+    }
+    .Nephrology-bg {background-position: 35%;}
+    .b-p100 {
+        padding-bottom: 46px !important;
+    }
+    .Urology-bg {
+        background: url(images/sec_6.webp) no-repeat 50% 100%;
+        background-size: 100% 100%;
+    }
+    .Pulmonary-bg {
+        background: url(images/sec_10.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+}
+
+@media only screen and (max-width:980px) {
+    .inner-wrapper{max-width: 890px;margin-left: auto;margin-right: auto;}
+    .bookh3 {
+        font-size: 15px;}
+        .form-control {font-size: 14px;}
+        .Gastroenterology-bg {
+            background: url(images/sec_9.webp) no-repeat 72% 60%;
+            background-size: auto;
+        }
+
+}
+
+@media only screen and (max-width:786px) {
+    .inner-wrapper{max-width: 700px;margin-left: auto;margin-right: auto;}
+    .getbutton {font-size: 13px;}
+    .bookh1 {
+        line-height: 30px;
+        font-size: 22px;
+    }
+    .right-block1 {
+        width: 35%;
+        float: left;
+    }
+    .left-block1 {
+        width: 65%;
+        float: left;
+    }
+    .opdsh3 {
+        font-family: "Poppins-Bold";
+        font-size: 17px;
+    }
+    .bookh3 {
+        font-size: 12px;
+    }
+    .centersul li .centli { 
+        height: 128px;
+    }
+    .book-bg {padding: 10px;}
+    .buttonposi {font-size: 12px;}
+    .form-control {
+        font-size: 12px;
+    }
+    .t-p50 {
+        padding-top: 20px;
+    }
+    .centersul li {
+        width: 18.3%;
+        float: left;
+        margin-right: 7.5%;
+        margin-left: 7.5%;
+        margin-bottom: 50px;
+    }
+    .b-p80 {
+        padding-bottom: 5px;
+    }
+    .cardilogyh2 {
+        font-family: "Poppins-Bold";
+        font-size: 35px;
+        line-height: 40px;
+        color: #000;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .cardilogy-para {
+        font-size: 12px;       
+        padding-right: 50%;
+    }
+    .cardilogy-bg {
+        background-size: cover;
+    }
+    .Oncologyh2 { padding-top: 50px;
+        padding-bottom: 20px;}
+    .Oncology-para {font-family: "Poppins-Regular";
+        font-size: 12px;
+        line-height: 21px;
+        padding-bottom: 25px;}
+    .Orthopedicsh2 { padding-top: 50px;
+        padding-bottom: 20px;}
+    .Orthopedics-para {
+        font-family: "Poppins-Regular";
+        font-size: 12px;
+        line-height: 24px;
+        padding-bottom: 19px;
+    }
+    .Orthopedics-bg {
+        background: url(images/ortho-bg.webp) no-repeat 5% 26%;
+        background-size: auto;
+    }
+
+    .RoboticSurgeryh2 {
+    font-size: 32px;    
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 61%;
+    }
+    .RoboticSurgery-bg {
+        background: url(images/sec_2.webp) no-repeat 72% 100%;
+    }
+    .RoboticSurgery-para {
+       font-size: 12px;
+        color: #f1f1f1;
+    }
+    .Nephrologyh2 {padding-top: 50px;
+        padding-bottom: 20px;}
+        .Nephrology-para {font-size: 12px;}
+    .Nephrology-bg {
+        background-position: 39%;
+    }
+    .Neurologyh2 {padding-top: 50px;
+        padding-bottom: 20px;font-size: 35px;}
+        .Neurology-para {
+            font-size: 12px;
+            padding-right: 58%;
+        }
+        .Neurology-bg {
+            background: url(images/sec_7.webp) no-repeat 45% 15%;
+            background-size: auto;
+        }
+    .Neurology-para {
+        padding-bottom: 50px;}
+    .Urologyh2 {padding-top: 50px;
+        padding-bottom: 20px;font-size: 35px;}
+    .Urology-para {
+        font-size: 12px;
+        line-height: 21px;}
+        .Gastroenterologyh2 {font-size: 35px;}
+        .Urology-bg {
+            background: url(images/sec_6.webp) no-repeat 35% 96%;
+            background-size: cover;
+        }
+        .Gastroenterologyh2 {
+            font-size: 35px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+        .Gastroenterology-para {
+            font-size: 12px;
+            padding-right: 61%;
+            padding-bottom: 60px;
+        }
+        .Gastroenterology-bg {
+            background: url(images/sec_9.webp) no-repeat 71% 19%;
+            background-size: auto;
+        }
+        .BariatricSurgeryh2 {
+            font-size: 35px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+        .right-blockOncology {
+            width: 42%;
+            float: right;
+        }.left-blockOncology {
+            width: 58%;
+            float: left;
+        }
+        .BariatricSurgery-bg {
+            background: url(images/sec_8.webp) no-repeat 65% 100%;
+            background-size: cover;
+        }
+        .BariatricSurgery-para {font-size: 12px;line-height: 23px;}
+        .Pulmonaryh2 {
+            font-size: 35px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+        .Pulmonary-para {
+            font-size: 12px;
+            line-height: 23px;padding-bottom: 50px;}
+        .org-bg {
+            background-color: transparent;
+            width: 100%;
+            padding: 18px 0;
+        }
+        .boookbutt {
+            padding: 9.5px 0;
+            color: white;
+            font-family: "Poppins-Regular";
+            font-size: 12px;
+            background-color: #f47920;
+        }
+        .t-p50 {
+            padding-top: 10px;
+        }
+    
+       
+
+}
+
+@media only screen and (max-width:640px) {
+    .inner-wrapper{max-width: 580px;margin-left: auto;margin-right: auto;}
+    .hed-back-bg {background: transparent;background-color: #e5d6d3;}
+    .centersul li .centli {
+        height: 106px;
+    }
+    .b-p150 {
+        padding-bottom: 10px;
+    }
+    .centersul {
+        list-style-type: none;
+        padding-top: 10px;
+    }
+    .spanh4 {padding: 16px;font-size: 10px;}
+    .org-bg {
+        padding: 16px 0;
+    }
+    .boookbutt {
+        padding: 8.5px 0;
+        font-size: 10px;
+    }
+     .cardilogy-bg {
+         background: url(images/cardiology-bg.webp) no-repeat 82% 43%;
+        background-size: cover;
+    } 
+    .Oncology-bg {
+        background: url(images/bariatric-bg.webp) no-repeat 13% 90%;
+        background-size: cover;
+    }
+    .Orthopedics-bg {
+        background: url(images/ortho-bg.webp) no-repeat 7% 26%;
+        background-size: auto;
+    }    .Neurologyh2 {
+        padding-top: 20px;}
+        .Gastroenterology-bg {
+            background: url(images/sec_9.webp) no-repeat 83% 19%;
+            background-size: auto;
+        }
+        .cardilogyh2 {
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+        .b-p100 {
+            padding-bottom: 25px !important;
+        }
+        .cardilogy-para {padding-bottom: 15px;}
+        .Oncologyh2 {
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+        .Oncology-para {padding-bottom: 15px;}
+        .Orthopedicsh2 {
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+        .Orthopedics-para {padding-bottom: 15px;}
+        .RoboticSurgeryh2 {padding-top: 20px;
+            padding-bottom: 15px;padding-right: 47%;}
+        .RoboticSurgery-para {padding-right: 47%;
+        padding-bottom: 35px;}
+        .Nephrologyh2 {
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+        .Neurology-para {
+            padding-bottom: 20px;
+        }
+        .Urologyh2 {
+            padding-top: 20px;
+            padding-bottom: 15px;
+            
+        }
+        .Gastroenterologyh2 {
+            padding-bottom: 15px;
+            padding-top: 20px;}
+        .BariatricSurgeryh2 {
+            font-size: 32px;
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+        .right-blockOncology {
+            width: 46%;
+            float: right;
+        }    .left-blockOncology {
+            width: 54%;
+            float: left;
+        }
+        .Pulmonaryh2 {
+            
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+            
+                
+}
+
+@media only screen and (max-width:480px) {
+    .inner-wrapper{max-width: 400px;margin-left: auto;margin-right: auto;}
+    .left-block1 {
+        width: 100%;
+        float: left;
+    }
+    .right-block1 {
+        width: 100%;
+        float: left;}
+    .book-bg {
+        max-width: 280px;
+         margin: auto;
+         margin-top: 20px;
+    }
+    .bookh1 {padding: 15px 0 15px 0;        line-height: 22px;
+        font-size: 16px;}
+        .opdsh3 {
+            font-size: 12px;
+            font-family:  "Poppins-Regular";
+        }
+        .t-p50 {
+            padding-top: 0px;
+        }
+    .form-control {
+        font-size: 14px;
+    }.buttonposi {
+        font-size: 14px;
+    }.centersh1 {font-size: 20px;
+       
+        line-height: 38px;letter-spacing: 0;}
+        .dis-b {
+            display: inline;
+        }
+        .centersul li {
+            width: 35%;margin-bottom: 40px;}
+            .centersul li .centli {
+                height: 140px;
+            }
+            .cardilogy-bg {background: transparent;background-color: #ddd7d7;}
+            .cardilogy-para {
+                font-size: 12px;
+                padding-right: 0%;
+                line-height: 18px;
+            }
+            .Oncology-bg {background: transparent;background-color: #f9f9f9;}
+            .left-blockOncology {
+                width: 100%;
+                float: left;
+            }
+            .right-blockOncology {
+                width: 100%;float: right;}
+            .Orthopedics-bg {background: transparent; background-color: #cbd2de;}
+            .RoboticSurgery-bg {background: transparent;background-color: #2d4873;}
+            .RoboticSurgeryh2 {padding-right: 0;padding-top: 10px;
+                padding-bottom: 5px;font-size: 25px;}
+            .RoboticSurgery-para {line-height: 18px;
+                padding-right: 0%;padding-bottom: 15px;}
+            .Nephrology-bg {background: transparent; background-color: #ffffff;}
+            .Neurology-bg {background: transparent; background-color: #bebdb9;}
+            .Nephrologyh2 {
+                padding-right: 0;padding-top: 10px;
+                padding-bottom: 5px;font-size: 25px;
+            }
+            .BariatricSurgeryh2 {
+                font-size: 25px;
+                padding-top: 10px;
+                padding-bottom: 5px;
+            }
+            .Gastroenterology-para {line-height: 18px;
+                padding-bottom: 15px;}
+            .Urologyh2 {padding-top: 10px;
+                padding-bottom: 5px;font-size: 25px;}
+            .Neurologyh2 {padding-right: 0;padding-top: 10px;
+                padding-bottom: 5px;font-size: 25px;}
+            .Neurology-para {padding-right: 0;padding-bottom: 15px;line-height: 18px;}
+            .Urology-bg {background: transparent; background-color: #90b9d4;}
+            .Gastroenterology-bg{background: transparent; background-color: #e2ddd3;}
+            .Gastroenterologyh2 {padding-right: 0;padding-top: 10px;
+                padding-bottom: 5px;font-size: 25px;}
+            .Gastroenterology-para {padding-right: 0;line-height: 18px;}
+            .BariatricSurgery-bg {background: transparent; background-color: #fff1d8;}
+            .Pulmonary-bg {background: transparent; background-color: #acd1dd;}
+            .Pulmonaryh2 {padding-right: 0;padding-top: 10px;
+                padding-bottom: 5px;font-size: 25px;}
+            .Pulmonary-para {padding-right: 0;padding-bottom: 15px;line-height: 18px;}
+            .spanh4 {
+                padding: 4px;
+                font-size: 12px;letter-spacing: 1px;
+            }    .org-bg {
+                padding: 12px 0;
+            }    .boookbutt {
+                padding: 5.5px 0;
+                font-size: 9px;
+            }
+            .bookh3 {
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+            .cardilogy-para {
+                padding-bottom: 5px;line-height: 18px;
+            }
+            .cardilogyh2 {
+                font-size: 25px;
+                padding-top: 10px;
+        padding-bottom: 5px;}
+        .b-p100 {
+            padding-bottom: 15px !important;
+        }
+        .Oncologyh2 {font-size: 25px;
+            padding-top: 10px;
+    padding-bottom: 5px;}
+    .Oncology-para {
+        padding-bottom: 5px;line-height: 18px;
+    }    .Orthopedicsh2 {
+        padding-top: 10px;
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    .Nephrology-para {line-height: 18px;}
+    .Orthopedics-para {
+        padding-bottom: 5px;line-height: 18px;
+    }
+
+}   
+
+@media only screen and (max-width:420px) {
+    .inner-wrapper{max-width: 380px;margin-left: auto;margin-right: auto;}
+    .centersul li .centli {
+        height: 133px;
+    }
+    .cardilogyh2 {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .centersh1 {
+        line-height: 25px;
+    }
+    .Oncologyh2 {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .Orthopedicsh2 {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .RoboticSurgeryh2 {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .Nephrologyh2 {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .Neurologyh2 {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .Urologyh2 {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .Gastroenterologyh2 {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .BariatricSurgeryh2 {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .Pulmonaryh2 {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .BariatricSurgery-para {
+        line-height: 18px;
+    }
+    .phonenumber {
+        font-size: 12px;}
+    .spanh4 {
+        padding: 5px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .inner-wrapper{max-width: 300px;margin-left: auto;margin-right: auto;}
+    .centersul li .centli {
+        height: 105px;
+    }
+    .spanh4 {
+        padding: 5px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .form-control {
+        min-height: 30px;font-size: 12px;}
+     .getbutton {
+             padding: 4px 10px;font-size: 12px;}
+    .buttonposi {
+        padding: 8px 10px;
+        height: 30px;font-size: 12px;}
+        .centersul h5 {
+            margin-top: 0px;
+        }
+
+}
