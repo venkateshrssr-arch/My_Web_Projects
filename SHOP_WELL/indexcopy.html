@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplifying business enabled functions</title>
+    <link rel="shortcut icon" href="Content/Images/cropped-n_logo-fve.png" type="image/x-icon">
+    <link rel="stylesheet" href="Content/shopwell.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="body" class="bodycl">
+    <!-- header sec start -->
+
+    <section class="clearfix wrapper">
+        <article class="clearfix inner-wrapper">
+            <article>
+                <ul class="clearfix list-pn img-list">
+                    <li>
+                        <article class="imgart">
+                            <article class="imgsize">
+                                <img src="./Content/images/img1.png" alt="img1" width="112" height="112">
+                            </article>
+                            <!-- <h3 class="title">Client-Centric
+                                Approach</h3> -->
+                                <span style="display: inline-block;">Client-Centric <span style="display: block;">Approach</span></span>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="imgart">
+                            <article class="imgsize">
+                                <img src="./Content/images/img2.png" alt="img1" width="109" height="106">
+                            </article>
+                            <h3 class="title">Client-Centric
+                                Approach</h3>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="imgart">
+                            <article class="imgsize">
+                                <img src="./Content/images/img3.png" alt="img1" width="110" height="108">
+                            </article>
+                            <h3 class="title">Client-Centric
+                                Approach</h3>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="imgart">
+                            <article class="imgsize">
+                                <img src="./Content/images/img4.png" alt="img1" width="110" height="122">
+                            </article>
+                            <h3 class="title">Client-Centric
+                                Approach</h3>
+                        </article>
+                    </li>
+                </ul>
+            </article>
+        </article>
+    </section>
+    
+    <!--footer  sec end -->
+
+
+    <script>
+        var wid1 = document.getElementById("right").offsetWidth;
+        var wid2 = document.getElementById("left").offsetWidth;
+        var total = wid1 + wid2;
+        // console.log(wid1);
+        // console.log(wid2);
+        // console.log(total);
+        var allwidth = document.getElementById("tolwidth").offsetWidth
+        console.log(allwidth);
+        if (total === 1100) {
+            var right = document.getElementById("right").offsetHeight;
+            console.log(right);
+            document.getElementById("left").style.height = right + "px";
+            console.log(lh);
+            var allwidth = document.getElementById("tolwidth").offsetWidth
+            console.log(allwidth);
+        } else if (total === 1024) {
+            var right = document.getElementById("right").offsetHeight;
+            var lh = document.getElementById("left").style.height = right + "px";
+            console.log(right);
+            console.log(lh);
+            var allwidth = document.getElementById("tolwidth").offsetWidth
+            console.log(allwidth);
+        } else if (total === 980) {
+            var right = document.getElementById("right").offsetHeight;
+            var lh = document.getElementById("left").style.height = right + "px";
+            console.log(right);
+            console.log(lh);
+            var allwidth = document.getElementById("tolwidth").offsetWidth
+            console.log(allwidth);
+        }
+        else {
+            var right = document.getElementById("right").offsetHeight;
+            document.getElementById("left").style.height = right + "px";
+        }
+        var right = document.getElementById("right").offsetHeight;
+        document.getElementById("left").style.height = right + "px";
+        var viewportHeight = window.innerHeight;
+
+
+        // var dropval = document.getElementById("dropdown");
+        // dropval.style.opacity = "0";
+        // dropval.style.width = "0px";
+        // dropval.style.transition = "width 0.5s, opacity 0.5s";
+        // dropval.style.overflowY = "auto";
+        // document.body.style.overflow = 'scroll';
+        // document.body.scroll = 'yes';
+        // function toggleDropdown(value) {
+        //     if (value === "dropdown") {
+        //         if (dropval.style.width === "210px") {
+        //             dropval.style.opacity = "0";
+        //             dropval.style.width = "0px";
+        //             document.body.style.overflow = 'scroll';
+        //             document.body.scroll = 'yes';
+        //             document.body.style.opacity = '1';
+        //         } else {
+        //             dropval.style.opacity = "1";
+        //             dropval.style.width = "210px";
+        //             dropval.style.height = viewportHeight + "px";
+        //             document.body.style.overflow = 'hidden';
+        //             document.body.scroll = 'no';
+        //             document.body.style.opacity = '0.5';
+        //         }
+        //     }
+        // }
+
+        //  var dropval = document.getElementById("dropdown");
+        // var down = document.getElementById("downbg");
+        //  function toggleDropdown(value) {
+        //     const isSmallScreen = window.innerWidth <= 640;
+        //     if (value === "dropdown") {
+        //         if(dropval.style.left==="0px"){
+        //             dropval.style.left = "-385px";
+        //             down.style.display = "none";
+        //             // down.style.backgroundColor = "transparent";
+        //          down.style.position = "static";
+        //             // down.style.removeProperty("position");
+        //         }else{
+        //         dropval.style.left = "0";
+        //         dropval.style.transitionProperty="left";
+        //        document.body.style.width="100%";
+        //        document.body.style.height = "100%";
+        //        document.body.style.overflow = "hidden";
+        //        down.style.display = "block";
+        //        down.style.backgroundColor = "rgb(18, 16, 16, 0.5)";
+        //        down.style.position = "fixed";
+        //         }
+               
+        //     }
+
+        //  }
+
+        var dropval = document.getElementById("dropdown");
+        var down = document.getElementById("downbg");
+
+function toggleDropdown(value) {
+    var viewportHeight = window.innerHeight;
+    if (value === "dropdown") {
+        if (dropval.style.left === "0px") {
+            dropval.style.left = "-385px";  
+            down.style.display = "none";    
+            down.style.position = "static"; 
+            down.style.backgroundColor = "transparent";
+            document.body.style.width = "100%";
+            document.body.style.height = "100%";
+            document.body.style.overflow = "scroll";
+
+        } else {
+            dropval.style.left = "0";  
+            dropval.style.transitionProperty = "left";  
+            dropval.style.transitionDuration = "0.3s";
+            dropval.style.height = viewportHeight + "px";
+            document.body.style.width = "100%";
+            document.body.style.height = "100%";
+            document.body.style.overflow = "hidden";
+            down.style.display = "block";
+            down.style.backgroundColor = "rgb(18, 16, 16, 0.5)"; 
+            down.style.position = "fixed";
+        }
+    }
+}
+
+        var widkey1 = document.getElementById("keyright").offsetWidth;
+        var widkey2 = document.getElementById("keyleft").offsetWidth;
+        var total = widkey1 + widkey2;
+        // console.log(wid1);
+        // console.log(wid2);
+        // console.log(total);
+        var allwidth = document.getElementById("tolwidth").offsetWidth
+        console.log('lol',allwidth);
+        if (allwidth === 1100) {
+            var widkey2 = document.getElementById("keyleft").offsetHeight;
+            console.log('ll',widkey2);
+            document.getElementById("keyright").style.height = widkey2 + "px";
+            // console.log('lp',kk);
+            
+        } else if (allwidth === 1024) {
+            var widkey2 = document.getElementById("keyleft").offsetHeight;
+             var k = document.getElementById("keyright").style.height = widkey2 + "px";           
+        } else if (allwidth === 980) {
+            var widkey2 = document.getElementById("keyleft").offsetHeight;
+             document.getElementById("keyright").style.height = widkey2 + "px";      
+        }
+        else {
+            null;
+        }
+
+
+    </script>
+</body>
+
+</html>
